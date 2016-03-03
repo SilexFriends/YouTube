@@ -27,7 +27,7 @@ class YoutubeTest extends PHPUnit_Framework_TestCase
         $api_key = getenv('YOUTUBE_API_KEY');
 
         $app     = new Application;
-        $app->register(new YouTube($api_key));
+        $app->register(new Youtube($api_key));
 
         $this->app = $app;
     }
@@ -49,7 +49,7 @@ class YoutubeTest extends PHPUnit_Framework_TestCase
     {
         $url = 'https://www.youtube.com/watch?v=moSFlvxnbgk';
 
-        $result = $this->app[YouTube::NAME]($url);
+        $result = $this->app[Youtube::NAME]($url);
 
         $this->assertArrayHasKey('id', $result);
         $this->assertArrayHasKey('etag', $result);
