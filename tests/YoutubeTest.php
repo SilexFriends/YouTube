@@ -1,7 +1,7 @@
 <?php
 namespace MrPrompt\Silex\Tests;
 
-use MrPrompt\Silex\YouTube;
+use MrPrompt\Silex\Youtube;
 use PHPUnit_Framework_TestCase;
 use Silex\Application;
 
