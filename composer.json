@@ -1,16 +1,16 @@
 {
-  "name" : "mrprompt/silex-youtube",
-  "description" : "Silex YouTube Provider",
+  "name" : "SilexFriends/YouTube",
+  "description" : "YouTube Service Provider",
   "license" : "GPLv3",
   "type": "library",
   "autoload" : {
     "psr-4" : {
-      "MrPrompt\\Silex\\": "src/"
+      "SilexFriends\\YouTube\\": "src/"
     }
   },
   "autoload-dev" : {
     "psr-4" : {
-      "MrPrompt\\Silex\\Tests\\": "tests/"
+      "SilexFriends\\YouTube\\Tests\\": "tests/"
     }
   },
   "authors" : [
