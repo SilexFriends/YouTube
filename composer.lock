@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5111f23792313f41bc6b9b965bce76de",
-    "content-hash": "17c89412e388cb9ad2018975496595bd",
+    "hash": "ad35d0412206360cde6f077d9eafca55",
+    "content-hash": "471d768653962ab01b039404753fd305",
     "packages": [
         {
             "name": "madcoda/php-youtube-api",
